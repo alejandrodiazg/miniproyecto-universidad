@@ -1,0 +1,85 @@
+.infoabout {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    max-width: 1600px;
+    grid-auto-rows: minmax(100px, 700px);
+
+
+}
+
+.infoabout  .storie, 
+.infoabout  .evolution {
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-top: 50px;
+    color: white;
+}
+
+.infoabout  .storie p, 
+.infoabout  .evolution p {
+
+    width: 60%;
+    font-size: 18px;
+}
+
+/* mobile  */
+
+@media (max-width: 768px) { 
+
+    .infoabout {
+
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    
+    
+    }
+
+    .infoabout  .storie
+ {
+
+    padding: 20px 0;
+    height: 600px;
+}
+
+.infoabout  .evolution {
+
+    padding: 20px 0;
+    height: 1000px;
+}
+
+
+.infoabout  .storie p, 
+.infoabout  .evolution p {
+
+    width: 80%;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+.infoabout .storie {
+
+    
+
+    margin-top: 250px;
+
+}
+
+
+
+
+
+}
